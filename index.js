@@ -26,7 +26,7 @@ function convertStringToArray(commaSeparatedFlavors) {
 /**
  * Prints some descriptive statistics about the provided numbers.
  * @param {array} arrayOfFlavors
- * @returns {object{}} the array converted into an object of flavors
+ * @returns {object{}} the array converted into an object of flavors and quantity
  */
 function convertArrayToObject(arrayOfFlavors) {
   const froyos = {}; // Create an empty object
